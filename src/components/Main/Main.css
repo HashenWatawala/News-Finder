@@ -1,0 +1,108 @@
+.main{
+    flex: 1;
+    min-height: 100vh;
+    padding-bottom: 15vh;
+    position: relative;
+}
+
+.main .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    padding: 20px;
+    color: #585858;
+}
+.main .nav img{
+    width: 40px;
+    border-radius: 50%;
+}
+.main-container{
+    max-width: 900px;
+    margin: auto;
+}
+.main .greet{
+    margin: 10px 0px;
+    font-size: 56px;
+    color: black;
+    font-weight: 500;
+    padding: 20px;
+    text-align: center;
+}
+.main .greet span{
+    background: -webkit-linear-gradient(16deg, #000000, #002aff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.main .cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+
+}
+.main .card{
+    height: 200px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.137);
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.main .card img{
+    width: 35px;
+    padding: 5px;
+    position: absolute;
+    background-color: white;
+    border-radius: 20px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.main .card p{
+    font-size: 17px;
+}
+.main .card:hover{
+    background-color: rgba(90, 90, 152, 0.262);
+}
+.main-bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    max-width: 900px;
+    padding: 20px 20px;
+    margin: auto;
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    background-color: #474c6e24;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+.search-box img{
+    width: 24px;
+    cursor: pointer;
+}
+.search-box input{
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 8px;
+    font-size: 18px;
+}
+.search-box div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.main .bottom-info{
+    font-size: 18px;
+    margin: 15px auto;
+    text-align: center;
+    font-weight: 300;
+}
