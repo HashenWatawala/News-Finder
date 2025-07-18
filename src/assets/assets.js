@@ -9,6 +9,7 @@ import earth_icon from './earth_icon.png'
 import gallary_icon from './gallary_icon.png'
 import mic_icon from './mic_icon.png'
 import send_icon from './send_icon.png'
+import news_icon from './news_icon.png'
 
 export const assets = {
     menu_icon,
@@ -21,5 +22,6 @@ export const assets = {
     earth_icon,
     gallary_icon,
     mic_icon,
-    send_icon
+    send_icon,
+    news_icon
 }
