@@ -1,6 +1,8 @@
 # Azkme - News Finder
 
 A React-based application that leverages Google's Gemini API to provide news summaries based on user-provided keywords. This project allows users to search for news in any language and receive relevant, AI-generated summaries through an interactive chat interface.
+![News](https://github.com/user-attachments/assets/86a63c3b-e84a-4b67-b465-c9e32afee80c)
+
 
 ## Features
 
