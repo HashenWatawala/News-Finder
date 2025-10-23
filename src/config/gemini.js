@@ -1,9 +1,3 @@
-// gemini.js
-
-// Required dependencies:
-// npm install @google/generative-ai
-// Node.js >= v18 recommended
-
 import {
   GoogleGenerativeAI,
   HarmCategory,
